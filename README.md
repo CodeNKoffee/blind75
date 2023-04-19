@@ -8,7 +8,9 @@ This repository contains my solutions for the Blind75 LeetCode challenge alongsi
 
 The solution for Day 1 can be found in the `containsDuplicate.js` file.
 
-## Day 2: ...
+## Day 2: isAnagram
+
+The solution for Day 2 can be found in the `isAnagram.js` file.
 
 ...
 
