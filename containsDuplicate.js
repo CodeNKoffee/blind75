@@ -21,18 +21,19 @@
 //     return false
 // };
 
+
 /**
  * Ideal Solution
  * Time: O(n)
  * Space: O(n)
  */
 var containsDuplicate = function(nums) {
-    const set = new Set;
-    for (const num of nums) {
-        if (set.has(num)) {
-            return true;
-        }
-        set.add(num);
+  const set = new Set;
+  for (const num of nums) {
+    if (set.has(num)) {
+      return true;
     }
-    return false;
+    set.add(num);
+  }
+  return false;
 }
